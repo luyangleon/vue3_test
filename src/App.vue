@@ -37,7 +37,7 @@ export default {
     function changeLP() {
       name.value = 'lm',
       age.value = 40,
-      console.log(otherLp);
+      console.log(otherLp)
       otherLp.value.age = 23,
       otherLp.value.sanwei.xiong = '35D',
       otherLp.value.sanwei.tun = '27'
