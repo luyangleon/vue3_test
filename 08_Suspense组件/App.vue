@@ -2,7 +2,7 @@
   <div class="app">
     <h3>App组件</h3>
     <Suspense>
-      <template v-slot:default>
+      <template v-slot:default>        
         <Child />
       </template>
       <template v-slot:fallback>
